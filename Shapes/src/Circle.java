@@ -27,8 +27,16 @@ public abstract class Circle extends Shape{
         return 20;
     }
 
-
     public double getPerimeter() {
         return 30;
+    }
+
+    public String toString(){
+        String SHAPEdata = super.toString();
+        String CIRCLE = "";
+        CIRCLE+= "Radius: " + radius + "\n";
+
+
+        return SHAPEdata + ", " + CIRCLE;
     }
 }
