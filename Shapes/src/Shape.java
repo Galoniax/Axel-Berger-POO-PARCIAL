@@ -15,6 +15,7 @@ public abstract class Shape {
     }
 
 
+
     //Getters and Setters
     public String getColor() {
         return color;
@@ -31,6 +32,15 @@ public abstract class Shape {
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
+
+    public String toString(){
+        String SHAPE = "";
+        SHAPE+= "Color: " + color + "\n";
+        SHAPE+= "Filled: " + filled + "\n";
+
+        return SHAPE;
+    }
+
 
     //Abstracts
     public abstract double getArea();
