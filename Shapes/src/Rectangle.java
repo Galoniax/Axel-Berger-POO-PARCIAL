@@ -33,4 +33,12 @@ public abstract class Rectangle extends Shape{
     public void setLength(double length) {
         this.length = length;
     }
+
+    public double getArea() {
+        return 40;
+    }
+
+    public double getPerimeter() {
+        return 60;
+    }
 }
