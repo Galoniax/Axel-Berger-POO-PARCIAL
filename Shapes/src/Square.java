@@ -1,8 +1,8 @@
-public abstract class Square extends Rectangle{
+public class Square extends Rectangle{
     private double side;
 
     public Square() {
-        this.side = 4.0;
+        this.side = 1.0;
     }
 
     public Square(double side) {

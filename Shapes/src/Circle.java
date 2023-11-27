@@ -1,4 +1,4 @@
-public abstract class Circle extends Shape{
+public class Circle extends Shape{
     private double radius;
 
     //Constructors
@@ -24,11 +24,11 @@ public abstract class Circle extends Shape{
     }
 
     public double getArea() {
-        return 20;
+        return 5.5;
     }
 
     public double getPerimeter() {
-        return 30;
+        return 5.5;
     }
 
     public String toString(){
