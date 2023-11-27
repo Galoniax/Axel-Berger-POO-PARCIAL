@@ -41,4 +41,13 @@ public abstract class Rectangle extends Shape{
     public double getPerimeter() {
         return 60;
     }
+
+    public String toString(){
+        String SHAPEdata = super.toString();
+        String RECTANGLE = "";
+        RECTANGLE+= "Width: " + width + ", Length: " + length + "\n";
+
+
+        return SHAPEdata + ", " + RECTANGLE;
+    }
 }
