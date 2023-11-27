@@ -1,6 +1,8 @@
 public abstract class Square extends Rectangle{
-    public Square() {
+    private double side;
 
+    public Square() {
+        this.side = 4.0;
     }
 
     public Square(double side) {
@@ -11,13 +13,22 @@ public abstract class Square extends Rectangle{
         super(side, side, color, filled);
     }
 
+
     public double getSide() {
-        return getWidth(); // Square's side is the same as width or length
+        return side;
     }
 
     public void setSide(double side) {
-        setWidth(side);
-        setLength(side);
+        this.side = side;
     }
+
+    public void setWidth(double side) {
+        super.setWidth(side);
+    }
+
+    public void setLength(double side) {
+        super.setLength(side);
+    }
+
 
 }
