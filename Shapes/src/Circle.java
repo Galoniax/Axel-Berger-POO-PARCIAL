@@ -22,4 +22,13 @@ public abstract class Circle extends Shape{
     public void setRadius(double radius) {
         this.radius = radius;
     }
+
+    public double getArea() {
+        return 20;
+    }
+
+
+    public double getPerimeter() {
+        return 30;
+    }
 }
